@@ -20,6 +20,23 @@
 </defs>
 <rect width="1200" height="180" fill="url(#sky)"/>
 <circle cx="260" cy="150" r="190" fill="url(#nebula)"/>
+<g>
+<path d="M 268 46 C 220 28, 178 48, 182 78 C 186 104, 252 100, 262 126 C 270 148, 226 160, 196 146" fill="none" stroke="#9db1ff" stroke-width="1" stroke-linecap="round" stroke-dasharray="460" stroke-dashoffset="0" opacity="0.30">
+<animate attributeName="stroke-dashoffset" values="460;460;0" keyTimes="0;0.2;1" dur="3s" begin="0s" fill="freeze"/>
+</path>
+<circle cx="268" cy="46" r="6" fill="#9db1ff" opacity="0.15"/>
+<circle cx="268" cy="46" r="2.4" fill="#dbe6ff" opacity="0.95">
+<animate attributeName="opacity" values="0.95;0.45;0.95" dur="3.2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="222" cy="98" r="6" fill="#9db1ff" opacity="0.15"/>
+<circle cx="222" cy="98" r="2.4" fill="#dbe6ff" opacity="0.95">
+<animate attributeName="opacity" values="0.45;0.95;0.45" dur="3.2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="196" cy="146" r="6" fill="#9db1ff" opacity="0.15"/>
+<circle cx="196" cy="146" r="2.4" fill="#dbe6ff" opacity="0.95">
+<animate attributeName="opacity" values="0.95;0.45;0.95" dur="4.1s" repeatCount="indefinite"/>
+</circle>
+</g>
 <circle cx="950" cy="60" r="72" fill="url(#glow)"/>
 <circle cx="950" cy="60" r="26" fill="#e6e9f5" mask="url(#crescent)"/>
 <circle cx="60" cy="30" r="1.2" fill="#e8ecff" opacity="0.5"/>
