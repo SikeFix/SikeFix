@@ -1,67 +1,98 @@
 <div align="center">
 
-# 👋 Hi, I'm SikeFix
-
-### 微信小程序 & 后端开发 · PHP / Node.js / Vue
-
-[![Website](https://img.shields.io/badge/🌐_www.keorigin.com-4B5EFC?style=for-the-badge)](https://www.keorigin.com)
-[![Followers](https://img.shields.io/github/followers/SikeFix?label=Followers&style=for-the-badge&color=blue)](https://github.com/SikeFix?tab=followers)
-![Profile Views](https://komarev.com/ghpvc/?username=SikeFix&style=for-the-badge&color=orange&label=Profile+Views)
-
-</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="night sky">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0d1226"/>
+<stop offset="1" stop-color="#04060d"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#aab4ff" stop-opacity="0.30"/>
+<stop offset="1" stop-color="#aab4ff" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="nebula" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#7b6cff" stop-opacity="0.14"/>
+<stop offset="1" stop-color="#7b6cff" stop-opacity="0"/>
+</radialGradient>
+<mask id="crescent">
+<circle cx="950" cy="60" r="26" fill="white"/>
+<circle cx="961" cy="52" r="22" fill="black"/>
+</mask>
+</defs>
+<rect width="1200" height="180" fill="url(#sky)"/>
+<circle cx="260" cy="150" r="190" fill="url(#nebula)"/>
+<circle cx="950" cy="60" r="72" fill="url(#glow)"/>
+<circle cx="950" cy="60" r="26" fill="#e6e9f5" mask="url(#crescent)"/>
+<circle cx="60" cy="30" r="1.2" fill="#e8ecff" opacity="0.5"/>
+<circle cx="140" cy="90" r="1.0" fill="#e8ecff" opacity="0.4"/>
+<circle cx="220" cy="40" r="1.5" fill="#e8ecff" opacity="0.7">
+<animate attributeName="opacity" values="0.7;0.15;0.7" dur="4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="310" cy="120" r="1.1" fill="#e8ecff" opacity="0.45"/>
+<circle cx="390" cy="25" r="1.3" fill="#e8ecff" opacity="0.6"/>
+<circle cx="470" cy="80" r="1.0" fill="#e8ecff" opacity="0.35">
+<animate attributeName="opacity" values="0.35;0.9;0.35" dur="5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="540" cy="140" r="1.4" fill="#e8ecff" opacity="0.55">
+<animate attributeName="opacity" values="0.55;0.2;0.55" dur="4.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="620" cy="35" r="1.1" fill="#e8ecff" opacity="0.5"/>
+<circle cx="700" cy="100" r="1.0" fill="#e8ecff" opacity="0.4"/>
+<circle cx="760" cy="155" r="1.3" fill="#e8ecff" opacity="0.5">
+<animate attributeName="opacity" values="0.5;0.1;0.5" dur="3.5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="830" cy="50" r="1.0" fill="#e8ecff" opacity="0.45"/>
+<circle cx="880" cy="120" r="1.2" fill="#e8ecff" opacity="0.4"/>
+<circle cx="1030" cy="130" r="1.1" fill="#e8ecff" opacity="0.5"/>
+<circle cx="1090" cy="40" r="1.4" fill="#e8ecff" opacity="0.6">
+<animate attributeName="opacity" values="0.6;0.2;0.6" dur="6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1150" cy="90" r="1.0" fill="#e8ecff" opacity="0.4"/>
+<circle cx="1180" cy="150" r="1.2" fill="#e8ecff" opacity="0.5"/>
+<circle cx="90" cy="150" r="1.0" fill="#e8ecff" opacity="0.35"/>
+<circle cx="180" cy="160" r="0.9" fill="#e8ecff" opacity="0.3"/>
+<circle cx="280" cy="70" r="0.9" fill="#e8ecff" opacity="0.35"/>
+<circle cx="430" cy="155" r="1.0" fill="#e8ecff" opacity="0.4"/>
+<circle cx="590" cy="70" r="0.9" fill="#e8ecff" opacity="0.3"/>
+<circle cx="730" cy="20" r="1.2" fill="#e8ecff" opacity="0.55"/>
+<circle cx="1120" cy="160" r="0.9" fill="#e8ecff" opacity="0.35"/>
+<path d="M 0 100 L 46 76" stroke="#c9d4ff" stroke-width="1.6" stroke-linecap="round" opacity="0">
+<animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.62;0.72;0.82;1" dur="11s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 0;1240 -60;1240 -60" keyTimes="0;0.62;0.82;1" dur="11s" repeatCount="indefinite"/>
+</path>
+</svg>
 
 <br>
 
-## 关于我
-
-主要做微信小程序开发和后端服务，日常在 **PHP / ThinkPHP**、**Node.js**、**Vue** 之间切换，最近在用 Claude Code 辅助开发。
-
-- 🔭 目前主要做微信小程序（校园类、活动/潮玩类）的前后端
-- 🛠 后端常用 ThinkPHP / NestJS，前端常用 Vue / 原生小程序
-- 🌱 最近在做一些零依赖的小工具（比如下面这个 CET6 背诵站）
-- 💼 [www.keorigin.com](https://www.keorigin.com)
+## you found me.
 
 <br>
 
-## 🛠 技术栈
+<sub>大部分东西，留在暗处。<br>你能看见的，只是痕迹。</sub>
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=php,nodejs,ts,js,vue,nestjs,mysql,wechat,git,vscode&theme=dark&perline=10" />
-</div>
+<br><br>
 
-<br>
+<code>php</code> · <code>node</code> · <code>vue</code> · <code>小程序</code>
 
-## 📌 精选项目
+<br><br>
 
-<table>
-<tr>
-<td width="100%">
+[keorigin.com](https://www.keorigin.com)
 
-### [cet6-memory-web](https://github.com/SikeFix/cet6-memory-web)
+<br><br>
 
-CET6 Section C 阅读真题背诵 + 刷题小工具。零依赖 vanilla JS 前端 + Node.js 内置 http 服务，支持多设备进度同步、错题本、按年份分组的刷题模式。
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Zero Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen?style=flat-square)
-
-</td>
-</tr>
-</table>
+<img src="https://komarev.com/ghpvc/?username=SikeFix&style=flat-square&color=6e7681&label=you%20are%20visitor" alt="" width="170">
 
 <br>
 
-<div align="center">
-
-### 📊 GitHub 概览
-
-![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/SikeFix&label=Public%20Repos&query=$.public_repos&style=for-the-badge&color=6f42c1)
-![Joined](https://img.shields.io/github/created-at/SikeFix?label=Joined&style=for-the-badge&color=2ea44f)
-
-</div>
+<details>
+<summary>🗝️ 入口</summary>
 
 <br>
 
-<div align="center">
-<sub>这个主页也是用 Claude Code 帮忙写的 🤖</sub>
+<sub>翻到这里的人，通常都在找同一个答案。<br>答案不在这里。</sub>
+
+<br>
+
+</details>
+
 </div>
